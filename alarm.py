@@ -1,4 +1,9 @@
 
+import os
 from playsound import playsound
 
-playsound("alert.mp3")
+path = os.getcwd()
+
+print(path)
+
+playsound(path + "/alert.mp3")
