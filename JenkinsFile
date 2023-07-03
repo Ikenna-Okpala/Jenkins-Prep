@@ -6,7 +6,7 @@ pipeline{
         stage("Build"){
             steps{
                 sh "pip install playsound"
-                sh "python -u alarm.py"
+                sh "python3 -u alarm.py"
             }
         }
     }
